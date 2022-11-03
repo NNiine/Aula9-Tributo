@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'fontshalloween';
+    src: url(/fonts/HALLOWEEN\ DEMO\ Regular.otf);
+}
+
+body{
+    font-family: 'fontshalloween';
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    display:flex ;
+    justify-content: center
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 250px;
+    font-size: 50px;
+    margin-top: 170px;
+    border-radius: 30px;
+    background-color: rgb(71, 18, 95);
+}
+
+.container p{
+    margin: 30px;
+}
+
+.container img{
+    border-radius: 39px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.container:hover img{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(255, 81, 0);
+    color: orangered
+}
+
+.Storys{
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 80px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Festa1:hover{
+    border-style: solid;
+    border-color: rgb(103, 24, 105);
+
+}
+
+.container img{
+    border-radius: 39px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.baixoesquer{
+    
+    position: absolute;
+    text-align: center;
+
+    margin: 280px;
+    margin-top: 650px;
+    font-size: 110px;
+}
+
+.baixoesdir{
+    position: absolute;
+    text-align: center;
+
+    margin: 160px;
+    margin-top: 550px;
+    font-size: 110px;
+}
+
+.baixo{
+    position: absolute;
+    text-align: center;
+
+    margin: 160px;
+    margin-top: 550px;
+    font-size: 110px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
